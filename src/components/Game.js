@@ -53,8 +53,8 @@ const Game = ({
             name="letter"
             maxLength="1"
             required
-            onChange={(e) => setLetter(e.target.value)}
             value={letter}
+            onChange={(e) => setLetter(e.target.value)}
             ref={letterInputRef}
           />
           <button>Jogar!</button>
